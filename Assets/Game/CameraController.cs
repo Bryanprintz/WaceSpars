@@ -4,9 +4,9 @@ public class CameraController : MonoBehaviour
 {
 	private GameObject target;
 
-	public void SetTarget(GameObject gbj)
+	public void SetTarget(GameObject obj)
 	{
-		target = gbj;
+		target = obj;
 	}
 
 	public void Update()
